@@ -20,7 +20,7 @@ import { MainSectionComponent } from 'src/app/shared/main-section/main-section.c
   ],
   providers: [],
   bootstrap: [],
-  exports:[
+  exports: [
     HomeComponent
   ]
 })
