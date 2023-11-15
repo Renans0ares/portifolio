@@ -1,7 +1,22 @@
-<header>
-    <a>Home</a>
-    <div class="menu">
-        <a>Projects</a>
-        <btn-primary text="Contact"></btn-primary>
+<!-- header.component.html -->
+<header class="bg-transparent text-gray-800 p-4 flex justify-between items-center">
+    <div class="flex items-center">
+        <!-- Ícone de menu para telas menores -->
+        <button class="sm:hidden text-gray-800">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <a href="#" class="text-lg text-black ml-2 sm:ml-0">Home</a>
+    </div>
+
+    <div class="flex items-center">
+        <a href="#" class="mr-4 text-black">Projects</a>
+        <button
+            class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full transition duration-300 ease-in-out">
+            Contact
+        </button>
     </div>
 </header>
