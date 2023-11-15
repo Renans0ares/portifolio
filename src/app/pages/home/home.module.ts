@@ -6,6 +6,7 @@ import { HeaderComponent } from 'src/app/shared/header/header.component';
 import { BtnPrimaryComponent } from 'src/app/shared/btn-primary/btn-primary.component';
 import { MainPictureComponent } from 'src/app/shared/main-picture/main-picture.component';
 import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainSectionComponent } from 'src/app/shared/main-section/main-section.c
     MainSectionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [],
