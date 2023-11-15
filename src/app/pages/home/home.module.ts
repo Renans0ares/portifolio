@@ -7,6 +7,7 @@ import { BtnPrimaryComponent } from 'src/app/shared/btn-primary/btn-primary.comp
 import { MainPictureComponent } from 'src/app/shared/main-picture/main-picture.component';
 import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GithubSectionComponent } from 'src/app/shared/github-section/github-section.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     BtnPrimaryComponent,
     MainPictureComponent,
-    MainSectionComponent
+    MainSectionComponent,
+    GithubSectionComponent
   ],
   imports: [
     BrowserModule,
