@@ -6,18 +6,22 @@
             <h2 class="text-xl font-bold mb-2 ml-2 pt-2">{{ repository.name }}</h2>
             <!-- Reduzi o tamanho da fonte para text-base -->
             <div class="flex space-x-2 mb-4 ml-2">
-                <span>
-                    <!-- Adicione a verificação ngIf à tag span -->
+                <!-- <span *ngFor="let language of repository.programming_language"
+                    class="bg-blue-500 text-white px-2 py-1 rounded">
+                    {{ language }}
+                </span> -->
+                <!-- <span>
+
                     <span *ngIf="!repository.language || repository.language.length === 0"
                         class="bg-blue-500 text-white px-2 py-1 rounded">
                         Teste
                     </span>
-                    <!-- Se repository.languages estiver definido e não for nulo ou vazio, exibe as linguagens -->
+
                     <span *ngIf="repository.language && repository.language.length > 0"
                         class="bg-blue-500 text-white px-2 py-1 rounded">
                         {{ repository.language}}
                     </span>
-                </span>
+                </span> -->
 
             </div>
             <!-- Adicionado ml-2 e mr-2 para a margem esquerda e direita -->

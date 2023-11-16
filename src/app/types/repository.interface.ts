@@ -1,7 +1,9 @@
+import { Languages } from "./programming-language.interface";
+
 export interface Repository {
     name: string,
     description: string,
     html_url: string,
     languages_url: string,
-    language: string
+    programming_language: Languages[]
 }
