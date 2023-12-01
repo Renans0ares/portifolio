@@ -3,22 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { HomeComponent } from './home.component';
 import { HeaderComponent } from 'src/app/shared/header/header.component';
-import { BtnPrimaryComponent } from 'src/app/shared/btn-primary/btn-primary.component';
+
 import { MainPictureComponent } from 'src/app/shared/main-picture/main-picture.component';
-import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
+import { MainSectionComponent } from 'src/app/shared/sections/main-section/main-section.component';
 import { HttpClientModule } from '@angular/common/http';
-import { GithubSectionComponent } from 'src/app/shared/github-section/github-section.component';
+import { GithubSectionComponent } from 'src/app/shared/sections/github-section/github-section.component';
 import { FooterComponent } from 'src/app/shared/footer/footer.component';
-import { SocialSectionComponent } from 'src/app/shared/social-section/social-section.component';
+import { SocialSectionComponent } from 'src/app/shared/sections/social-section/social-section.component';
+import { ExperienceSectionComponent } from 'src/app/shared/sections/experience-section/experience-section.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     HeaderComponent,
-    BtnPrimaryComponent,
     MainPictureComponent,
     MainSectionComponent,
     GithubSectionComponent,
+    ExperienceSectionComponent,
     SocialSectionComponent,
     FooterComponent
   ],
