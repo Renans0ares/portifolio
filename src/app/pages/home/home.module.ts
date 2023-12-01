@@ -8,6 +8,8 @@ import { MainPictureComponent } from 'src/app/shared/main-picture/main-picture.c
 import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GithubSectionComponent } from 'src/app/shared/github-section/github-section.component';
+import { FooterComponent } from 'src/app/shared/footer/footer.component';
+import { SocialSectionComponent } from 'src/app/shared/social-section/social-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { GithubSectionComponent } from 'src/app/shared/github-section/github-sec
     BtnPrimaryComponent,
     MainPictureComponent,
     MainSectionComponent,
-    GithubSectionComponent
+    GithubSectionComponent,
+    SocialSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
