@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { forkJoin } from 'rxjs';
-import { GithubService } from 'src/app/services/github.service';
-import { Repository } from 'src/app/types/repository.interface';
+import { GithubService } from 'src/app/core/services/github.service';
+import { Repository } from 'src/app/shared/types/repository.interface';
 
 @Component({
   selector: 'app-github-section',

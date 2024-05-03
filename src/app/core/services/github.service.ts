@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpResponse } from '@angular/common/http'
 import { Observable } from 'rxjs';
-import { Repository } from '../types/repository.interface';
+import { Repository } from '../../shared/types/repository.interface';
 
 export const GITHUB_API_URL = "https://api.github.com/users/Renans0ares/repos"
 
