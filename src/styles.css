@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+/* variables.css */
+
+:root {
+    --background-color: #282C33;
+    --primary-color: #C778DD;
+    --gray-color: #ABB2BF;
+    --white-color: #FFFFFF;
+    --font-family: 'Fira Code', sans-serif;
+    --font-size-base: 16px;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    background-color: var(--background-color);
+    color: var(--white-color);
+    margin: 0;
+    padding: 0 10%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    font-family: var(--font-family);
+    /* Aplica Fira Code a todos os textos */
+}
