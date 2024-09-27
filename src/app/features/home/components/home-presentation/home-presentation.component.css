@@ -37,7 +37,8 @@
     background-color: transparent;
     color: var(--white-color);
     cursor: pointer;
-    transition: all 0.3s ease;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-button:hover {
@@ -59,9 +60,11 @@
 
 .title {
     color: var(--gray-color);
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: 0px;
     padding: 5px 10px;
     border: 2px solid var(--gray-color);
+    border-radius: 6px;
 }
 
 .image-section p .highlight{

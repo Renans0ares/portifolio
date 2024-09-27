@@ -21,6 +21,7 @@
 .skill-category {
     background-color: var(--background-color);
     border: 1px solid var(--gray-color);
+    border-radius: 6px;
     padding: 20px;
 }
 

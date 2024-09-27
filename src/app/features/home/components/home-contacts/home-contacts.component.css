@@ -1,0 +1,61 @@
+#contacts {
+    padding: 50px;
+    background-color: var(--background-color);
+}
+
+.section-title {
+    color: var(--white-color);
+    font-family: 'Fira Code', monospace;
+    font-size: 32px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-title::before {
+    content: "#";
+    color: var(--primary-color);
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contacts-text {
+    color: var(--gray-color);
+    font-size: 16px;
+    max-width: 65%;
+    line-height: 1.6;
+}
+
+.contacts-call-me {
+    background-color: var(--background-color);
+    border: 1px solid var(--gray-color);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.contacts-call-me h3 {
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contacts-call-me p {
+    color: var(--gray-color);
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contacts-call-me a {
+    color: var(--gray-color);
+    text-decoration: none;
+}
+
+.contacts-call-me a:hover {
+    text-decoration: underline;
+}
