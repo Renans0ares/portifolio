@@ -1,0 +1,42 @@
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 78px;
+    background-color: var(--background-color);
+}
+
+.quote-container {
+    display: inline-block;
+    border: 1px solid var(--gray-color);
+    padding: 20px;
+    position: relative;
+    font-family: var(--font-family);
+    font-size: 24px;
+    color: var(--white-color);
+}
+
+.quote-symbol-left {
+    font-size: 40px;
+    color: var(--gray-color);
+    margin-right: 10px;
+}
+
+.quote-symbol-right {
+    font-size: 40px;
+    color: var(--gray-color);
+    margin-left: 10px;
+}
+
+.quote {
+    margin: 0;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.author {
+    font-size: 20px;
+    color: var(--gray-color);
+    text-align: right;
+    margin: 0;
+}
