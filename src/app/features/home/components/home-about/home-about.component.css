@@ -1,15 +1,29 @@
 #about {
     padding: 50px;
 }
+
 .section-title {
+    display: flex;
+    align-items: center;
     color: var(--white-color);
     font-family: 'Fira Code', monospace;
     font-size: 32px;
+    position: relative;
 }
 
 .section-title::before {
     content: "#";
     color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.section-title::after {
+    content: "";
+    flex-grow: 1;
+    height: 2px;
+    margin-left: 16px;
+    margin-right: 70%;
+    background-color: var(--primary-color);
 }
 
 .about-content {
