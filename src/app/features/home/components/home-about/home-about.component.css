@@ -34,7 +34,12 @@
 .about-text {
     color: var(--gray-color);
     font-size: 16px;
-    max-width: 60%;
+    max-width: 55%;
+}
+
+
+.about-text span{
+    color: var(--white-color);
 }
 
 .about-image img {
