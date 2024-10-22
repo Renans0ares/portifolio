@@ -39,3 +39,32 @@ nav ul li a:hover {
 nav ul li a.active {
     color: var(--white-color);
 }
+
+/* Estilo do hamburguer */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: rgba(40, 44, 51, 0.8);
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}

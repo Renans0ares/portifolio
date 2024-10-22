@@ -1,6 +1,7 @@
 #skills {
     padding: 50px;
 }
+
 .section-title {
     display: flex;
     align-items: center;
@@ -46,4 +47,27 @@
 .skill-category p {
     color: var(--gray-color);
     font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-title::after {
+        margin-right: 0;
+    }
+
+    .skill-category h3 {
+        font-size: 18px;
+    }
+
+    .skill-category p {
+        font-size: 14px;
+    }
 }

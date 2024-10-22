@@ -27,7 +27,6 @@
     background-color: var(--primary-color);
 }
 
-
 .contacts-content {
     display: flex;
     justify-content: space-between;
@@ -70,4 +69,34 @@
 
 .contacts-call-me a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .contacts-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacts-text, .contacts-call-me {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts-text {
+        font-size: 14px;
+    }
+
+    .contacts-call-me h3 {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
 }

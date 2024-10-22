@@ -1,7 +1,10 @@
 <header>
     <nav>
         <span class="logo">Renan</span>
-        <ul>
+        <div class="hamburger" id="hamburger" (click)="toggleMenu()">
+            &#9776; <!-- Ícone de hamburguer -->
+        </div>
+        <ul id="nav-links">
             <li><a routerLink="/home" routerLinkActive="active">home</a></li>
             <li><a routerLink="/projects" routerLinkActive="active">projetos</a></li>
             <li><a routerLink="/about" routerLinkActive="active">sobre</a></li>
